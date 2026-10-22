@@ -3,6 +3,15 @@
 A static, source-linked portfolio built from the public work at
 [github.com/Ramkrishna97](https://github.com/Ramkrishna97).
 
+## Live portfolio
+
+- **Production:** [portfolio-rk-dev1.vercel.app](https://portfolio-rk-dev1.vercel.app)
+- **Main-branch deployment:** [portfolio-git-main-rk-dev1.vercel.app](https://portfolio-git-main-rk-dev1.vercel.app)
+- **Deployment URL:** [portfolio-halu9m83h-rk-dev1.vercel.app](https://portfolio-halu9m83h-rk-dev1.vercel.app)
+
+If a visitor sees a Vercel login screen, turn off Deployment Protection for the
+production deployment in Vercel before sharing the link publicly.
+
 ## Run locally
 
 From the project root:
