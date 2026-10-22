@@ -1,13 +1,13 @@
 # Ramkrishna Portfolio
 
 A static, source-linked portfolio built from the public work at
-[github.com/Ramkrishna97](https://github.com/Ramkrishna97).
+<a href="https://github.com/Ramkrishna97" target="_blank" rel="noopener noreferrer">github.com/Ramkrishna97 ↗</a>.
 
 ## Live portfolio
 
-- **Production:** [portfolio-rk-dev1.vercel.app](https://portfolio-rk-dev1.vercel.app)
-- **Main-branch deployment:** [portfolio-git-main-rk-dev1.vercel.app](https://portfolio-git-main-rk-dev1.vercel.app)
-- **Deployment URL:** [portfolio-halu9m83h-rk-dev1.vercel.app](https://portfolio-halu9m83h-rk-dev1.vercel.app)
+- **Production:** <a href="https://portfolio-rk-dev1.vercel.app" target="_blank" rel="noopener noreferrer">portfolio-rk-dev1.vercel.app ↗</a>
+- **Main-branch deployment:** <a href="https://portfolio-git-main-rk-dev1.vercel.app" target="_blank" rel="noopener noreferrer">portfolio-git-main-rk-dev1.vercel.app ↗</a>
+- **Deployment URL:** <a href="https://portfolio-halu9m83h-rk-dev1.vercel.app" target="_blank" rel="noopener noreferrer">portfolio-halu9m83h-rk-dev1.vercel.app ↗</a>
 
 If a visitor sees a Vercel login screen, turn off Deployment Protection for the
 production deployment in Vercel before sharing the link publicly.
