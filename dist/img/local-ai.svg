@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="720" height="360" fill="#2b2937"/>
+  <text x="43" y="47" fill="#bfb8cf" font-family="monospace" font-size="13">local-ai-helper / on-device inference</text>
+  <g fill="none" stroke="#8a7da3" stroke-width="1.5"><path d="M290 128h-60V93H122m108 35v130H122M430 180h83"/><rect x="60" y="68" width="124" height="50" rx="6"/><rect x="60" y="233" width="124" height="50" rx="6"/><rect x="513" y="115" width="147" height="130" rx="8"/><path d="M542 149h87m-87 22h66m-66 37h87"/></g>
+  <rect x="290" y="110" width="140" height="140" rx="10" fill="#3c354a" stroke="#af9cc9"/>
+  <g stroke="#af9cc9" stroke-width="2"><path d="M315 98v12m22-12v12m23-12v12m23-12v12m22-12v12M315 250v12m22-12v12m23-12v12m23-12v12m22-12v12M278 137h12m-12 23h12m-12 23h12m-12 23h12m-12 22h12m140-91h12m-12 23h12m-12 23h12m-12 23h12m-12 22h12"/></g>
+  <g font-family="monospace" text-anchor="middle"><text x="360" y="172" fill="#ded2ed" font-size="23">GGUF</text><text x="360" y="200" fill="#c6b5dd" font-size="13">llama.cpp</text><text x="122" y="98" fill="#cfc4df" font-size="15">Chat</text><text x="122" y="263" fill="#cfc4df" font-size="15">Screen OCR</text><text x="586" y="278" fill="#bfb8cf" font-size="12">Token stream</text></g>
+</svg>

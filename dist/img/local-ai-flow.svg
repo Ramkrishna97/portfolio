@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">local-ai-helper / example: screen assistance</title>
+  <desc id="desc">A local GGUF model loads in llama.cpp. MediaProjection captures a screen frame, ML Kit extracts visible text, llama.cpp processes it, and tokens stream to the Screen conversation. Chat keeps its own separate context.</desc>
+  <style>
+    svg { --node:#3c354a; --line:#9785af; --accent:#c6aceb; --text:#eee4fa; --muted:#d0c1e0; background:#2b2937; font-family:monospace; }
+    text { fill:var(--text); }
+    .node-title { text-anchor:middle; font-size:17px; }
+    .node-subtitle { text-anchor:middle; font-size:11px; fill:var(--muted); }
+    .wire { fill:none; stroke:var(--line); stroke-width:1.5; }
+    .motion { visibility:hidden; }
+    .motion-ready .motion { visibility:visible; }
+    .motion-ready .overview { visibility:hidden; }
+    .phase-caption { text-anchor:middle; font-size:16px; fill:var(--accent); }
+    @media (prefers-reduced-motion:reduce) { .motion-ready .motion { visibility:hidden !important; } .motion-ready .overview { visibility:visible !important; } }
+  </style>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#9785af"/></marker></defs>
+  <rect width="720" height="420" fill="#2b2937"/>
+  <text x="24" y="29" style="fill:var(--muted);font-size:13px">local-ai-helper / example: screen assistance</text>
+  <path d="M176 102H246V170H280" class="wire" marker-end="url(#arrow)"/><path d="M216 286H246V206H280" class="wire" marker-end="url(#arrow)"/><path d="M448 174H488V99H534" class="wire" stroke-dasharray="5 5" marker-end="url(#arrow)"/><path d="M448 206H488V286H534" class="wire" marker-end="url(#arrow)"/><rect x="24" y="70" width="152" height="64" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="24" y="70" width="152" height="64" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="100.0" y="98.0" class="node-title">GGUF model</text><text x="100.0" y="119.0" class="node-subtitle">local model file</text><rect x="280" y="142" width="168" height="88" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="280" y="142" width="168" height="88" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="364.0" y="182.0" class="node-title">llama.cpp</text><text x="364.0" y="203.0" class="node-subtitle">on-device inference</text><rect x="24" y="252" width="192" height="68" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="24" y="252" width="192" height="68" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="120.0" y="282.0" class="node-title">Capture + OCR</text><text x="120.0" y="303.0" class="node-subtitle">MediaProjection / ML Kit</text><rect x="534" y="65" width="162" height="68" rx="7" fill="var(--node)" stroke="var(--line)"/><text x="615.0" y="95.0" class="node-title">Chat</text><text x="615.0" y="116.0" class="node-subtitle">own conversation</text><rect x="534" y="252" width="162" height="68" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="534" y="252" width="162" height="68" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="615.0" y="282.0" class="node-title">Screen</text><text x="615.0" y="303.0" class="node-subtitle">screen-text context</text><text x="360" y="348" class="node-subtitle">Chat and Screen keep separate context</text><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M176 102H246V170H280" keyPoints="0;0;1;1" keyTimes="0;0.03;0.2;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03;0.045;0.185;0.2;1" dur="12s" repeatCount="indefinite"/>
+    </circle><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M216 286H246V206H280" keyPoints="0;0;1;1" keyTimes="0;0.28;0.45;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28;0.295;0.435;0.45;1" dur="12s" repeatCount="indefinite"/>
+    </circle><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M448 206H488V286H534" keyPoints="0;0;1;1" keyTimes="0;0.77;0.88;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.77;0.785;0.865;0.88;1" dur="12s" repeatCount="indefinite"/>
+    </circle><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M448 206H488V286H534" keyPoints="0;0;1;1" keyTimes="0;0.8;0.91;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8;0.815;0.895;0.91;1" dur="12s" repeatCount="indefinite"/>
+    </circle><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M448 206H488V286H534" keyPoints="0;0;1;1" keyTimes="0;0.83;0.95;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.83;0.845;0.935;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  <path d="M24 362H696" stroke="#9785af" opacity=".45"/>
+  <text class="overview" x="360" y="394" style="text-anchor:middle;fill:var(--muted);font-size:13px">GGUF + screen text → local inference → Screen reply</text>
+  <text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">1 / Load a local GGUF model into llama.cpp<animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text><text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">2 / Capture screen text with MediaProjection + OCR<animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text><text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">3 / Process the text locally with llama.cpp<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text><text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">4 / Stream tokens to the Screen conversation<animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
+</svg>

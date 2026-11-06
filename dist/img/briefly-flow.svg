@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">briefly / extraction to summary</title>
+  <desc id="desc">Read files or public URLs, extract readable text and structure, summarize with the offline engine or optional local Ollama model, and export to TXT, DOCX or PDF.</desc>
+  <style>
+    svg { --node:#454236; --line:#9b947f; --accent:#e3d4ae; --text:#f0e7cd; --muted:#d2c7ac; background:#31302c; font-family:monospace; }
+    text { fill:var(--text); }
+    .node-title { text-anchor:middle; font-size:17px; }
+    .node-subtitle { text-anchor:middle; font-size:11px; fill:var(--muted); }
+    .wire { fill:none; stroke:var(--line); stroke-width:1.5; }
+    .motion { visibility:hidden; }
+    .motion-ready .motion { visibility:visible; }
+    .motion-ready .overview { visibility:hidden; }
+    .phase-caption { text-anchor:middle; font-size:16px; fill:var(--accent); }
+    @media (prefers-reduced-motion:reduce) { .motion-ready .motion { visibility:hidden !important; } .motion-ready .overview { visibility:visible !important; } }
+  </style>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#9b947f"/></marker></defs>
+  <rect width="720" height="420" fill="#31302c"/>
+  <text x="24" y="29" style="fill:var(--muted);font-size:13px">briefly / extraction to summary</text>
+  <path d="M154 184H204" class="wire" marker-end="url(#arrow)"/><path d="M340 184H388" class="wire" marker-end="url(#arrow)"/><path d="M528 184H576" class="wire" marker-end="url(#arrow)"/><rect x="24" y="140" width="130" height="88" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="24" y="140" width="130" height="88" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="89.0" y="180.0" class="node-title">Files / URLs</text><text x="89.0" y="201.0" class="node-subtitle">read source</text><rect x="204" y="140" width="136" height="88" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="204" y="140" width="136" height="88" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="272.0" y="180.0" class="node-title">Extractors</text><text x="272.0" y="201.0" class="node-subtitle">text + structure</text><rect x="388" y="140" width="140" height="88" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="388" y="140" width="140" height="88" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="458.0" y="180.0" class="node-title">Summarizer</text><text x="458.0" y="201.0" class="node-subtitle">offline / Ollama</text><rect x="576" y="140" width="120" height="88" rx="7" fill="var(--node)" stroke="var(--line)"/><rect class="motion" x="576" y="140" width="120" height="88" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect><text x="636.0" y="180.0" class="node-title">Export</text><text x="636.0" y="201.0" class="node-subtitle">TXT / DOCX / PDF</text><text x="89" y="264" class="node-subtitle">PDF / DOCX</text><text x="89" y="283" class="node-subtitle">XLSX / XLS / URL</text><text x="272" y="264" class="node-subtitle">DocumentExtractor</text><text x="272" y="283" class="node-subtitle">WebPageExtractor</text><text x="458" y="264" class="node-subtitle">rank sentences</text><text x="458" y="283" class="node-subtitle">or local inference</text><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M154 184H204" keyPoints="0;0;1;1" keyTimes="0;0.03;0.2;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03;0.045;0.185;0.2;1" dur="12s" repeatCount="indefinite"/>
+    </circle><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M340 184H388" keyPoints="0;0;1;1" keyTimes="0;0.28;0.45;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28;0.295;0.435;0.45;1" dur="12s" repeatCount="indefinite"/>
+    </circle><circle class="motion" r="4.5" fill="var(--accent)" opacity="0">
+      <animateMotion path="M528 184H576" keyPoints="0;0;1;1" keyTimes="0;0.78;0.95;1" calcMode="linear" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.78;0.795;0.935;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  <path d="M24 362H696" stroke="#9b947f" opacity=".45"/>
+  <text class="overview" x="360" y="394" style="text-anchor:middle;fill:var(--muted);font-size:13px">Source → extract → summarize → export</text>
+  <text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">1 / Read a file or fetch a public web page<animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text><text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">2 / Extract text, headings, and document structure<animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text><text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">3 / Summarize offline or with local Ollama<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text><text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">4 / Export the summary as TXT, DOCX, or PDF<animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
+</svg>

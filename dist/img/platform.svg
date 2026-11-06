@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="720" height="360" fill="#242b3a"/>
+  <text x="43" y="47" fill="#abb7ce" font-family="monospace" font-size="13">all-in-one / service architecture</text>
+  <g fill="none" stroke="#7486a4" stroke-width="1.5"><path d="M360 143v40M108 183h504M108 183v36m168-36v36m168-36v36m168-36v36"/></g>
+  <rect x="256" y="91" width="208" height="52" rx="6" fill="#303f51" stroke="#7b9fba"/>
+  <text x="360" y="123" text-anchor="middle" fill="#d6e8f4" font-family="monospace" font-size="17">API Gateway</text>
+  <g fill="#2e3649" stroke="#53657e"><rect x="43" y="219" width="130" height="54" rx="6"/><rect x="211" y="219" width="130" height="54" rx="6"/><rect x="379" y="219" width="130" height="54" rx="6"/><rect x="547" y="219" width="130" height="54" rx="6"/></g>
+  <g fill="#c7d5e8" font-family="monospace" font-size="14" text-anchor="middle"><text x="108" y="251">Auth</text><text x="276" y="251">Catalog</text><text x="444" y="251">Orders</text><text x="612" y="251">Classroom</text></g>
+  <text x="360" y="317" text-anchor="middle" fill="#a7b8d1" font-family="monospace" font-size="12">Spring Cloud · Eureka · React</text>
+</svg>
