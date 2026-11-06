@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="720" height="360" fill="#31302c"/>
+  <text x="43" y="47" fill="#c2beb1" font-family="monospace" font-size="13">briefly / document processing</text>
+  <g fill="none" stroke="#9b947f" stroke-width="1.5"><rect x="62" y="102" width="112" height="153" rx="5"/><path d="M85 137h65m-65 18h65m-65 18h45m-45 27h65m-65 18h50"/><path d="M201 178h61m-8-5 8 5-8 5M458 178h61m-8-5 8 5-8 5"/><rect x="548" y="102" width="112" height="153" rx="5"/></g>
+  <g stroke="#e3d4ae" stroke-width="3"><path d="M570 141h67m-67 22h57m-57 22h67m-67 22h41"/></g>
+  <rect x="284" y="142" width="152" height="72" rx="6" fill="#454236" stroke="#9b947f"/>
+  <g font-family="monospace" text-anchor="middle"><text x="360" y="171" fill="#e8debf" font-size="15">Extract</text><text x="360" y="194" fill="#e8debf" font-size="15">Summarize</text><text x="118" y="286" fill="#c2beb1" font-size="12">Files / URLs</text><text x="604" y="286" fill="#c2beb1" font-size="12">Summary</text><text x="360" y="322" fill="#c2beb1" font-size="12">Offline engine / Ollama</text></g>
+</svg>

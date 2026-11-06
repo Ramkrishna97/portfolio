@@ -2,3 +2,5 @@
 .DS_Store
 Thumbs.db
 *.tar.gz
+.playwright-cli/
+output/playwright/

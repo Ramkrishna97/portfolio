@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="720" height="360" fill="#1b302e"/>
+  <g fill="none" stroke="#35524c"><path d="M40 60h640M40 300h640"/><path d="M55 45v30m610-30v30M55 285v30m610-30v30"/></g>
+  <text x="55" y="105" fill="#a7bfb9" font-family="monospace" font-size="13">spring-log / Application.java</text>
+  <g font-family="monospace" font-size="24"><text x="55" y="162" fill="#c6d9d4">@SpringBootApplication</text><text x="55" y="201" fill="#86e6cf">@EnableAutoLogging</text><text x="55" y="240" fill="#a7bfb9">public class Application { }</text></g>
+  <circle cx="647" cy="102" r="4" fill="#86e6cf"/>
+</svg>
