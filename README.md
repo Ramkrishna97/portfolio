@@ -11,7 +11,7 @@ charcoal and mint are the default; an optional light theme is saved locally.
 Content, navigation, project links, and the resume work without JavaScript.
 
 The GitHub photo appears as a small avatar beside the navbar name. Motion includes
-a scroll-driven contour background, a moving workspace photo, subtle hover
+a scroll-driven contour background, a subtle backend-architecture hero visual, gentle hover
 highlights, and staggered scroll reveals. Project diagrams animate data packets,
 highlight the processing component, and show the current step in a caption.
 Each diagram has a pause/play control and stops when off-screen or the tab is
@@ -40,8 +40,8 @@ descriptions come from the public GitHub READMEs reviewed on October 26, 2026.
 
 All visible images are local to [dist/img](./dist/img). See the
 [image replacement guide](./dist/img/README.md) for filenames, dimensions, and
-how to substitute favorite photos or project screenshots. The intro uses a stock
-workspace photo; the locally saved GitHub avatar is in the navbar. Project images
+how to substitute favorite photos or project screenshots. The intro uses a transparent
+backend-systems illustration; the locally saved GitHub avatar is in the navbar. Project images
 are animated SVG architecture diagrams, not app screenshots. Images are optional:
 if a file is missing, JavaScript shows a simple
 text cover while leaving all content and links intact.

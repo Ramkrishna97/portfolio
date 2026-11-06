@@ -26,7 +26,7 @@
     });
     document.querySelector("[data-year]").textContent = String(new Date().getFullYear());
 
-    // Keep replacement images optional, including the navbar photo and backdrop.
+    // Keep replacement images optional, including the navbar photo and hero artwork.
     document.querySelectorAll(".project-cover > img").forEach(img => {
       const showFallback = () => {
         const fallback = document.createElement("span");
