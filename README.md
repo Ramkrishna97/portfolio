@@ -34,7 +34,7 @@ The structure draws from the supplied references:
 The layout and assets are original. Copy focuses on actual responsibilities,
 implementation details, and learning rather than slogans or service pitches.
 Professional details come from the supplied 2026 resume. Personal project
-descriptions come from the public GitHub READMEs reviewed on October 26, 2026.
+descriptions come from the public GitHub READMEs reviewed on November 7, 2026.
 
 ## Images and resume
 
