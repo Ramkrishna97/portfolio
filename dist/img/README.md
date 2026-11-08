@@ -12,10 +12,16 @@ screenshots, or cover images here; no external image service is needed at runtim
 | `platform.svg` | Microservices platform cover | 720 × 360, or any 2:1 image |
 | `briefly.svg` | Briefly cover | 720 × 360, or any 2:1 image |
 | `local-ai.svg` | Android AI helper cover | 720 × 360, or any 2:1 image |
+| `learnhub.svg` | LearnHub cover | 720 × 360, or any 2:1 image |
+| `ebanking.svg` | E-Banking Platform cover | 720 × 360, or any 2:1 image |
+| `stable-fin.svg` | Stable-Fin cover | 720 × 360, or any 2:1 image |
 | `spring-log-flow.svg` | Animated method / logging flow | 720 × 420 |
 | `platform-flow.svg` | Animated gateway / catalog request | 720 × 420 |
 | `briefly-flow.svg` | Animated extraction / summarization flow | 720 × 420 |
 | `local-ai-flow.svg` | Animated local screen-assistance flow | 720 × 420 |
+| `learnhub-flow.svg` | Animated publishing / quiz-attempt flow | 720 × 420 |
+| `ebanking-flow.svg` | Animated gateway / account request | 720 × 420 |
+| `stable-fin-flow.svg` | Animated retirement projection | 720 × 420 |
 
 Replace `profile.png` with a favorite portrait or `backend-architecture.png` with a
 transparent technical illustration using the same filenames. The avatar is small, softly masked,
