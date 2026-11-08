@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">learnhub / publish to quiz result</title>
+  <desc id="desc">A teacher publishes learning content through the React interface. Spring Boot checks the teacher role and stores content and quiz questions in H2. A student opens the quiz, submits answers, and receives a score and solutions.</desc>
+  <style>
+    svg { --node:#3e3b59; --line:#827ca8; --accent:#d8c9ff; --text:#f1ecff; --muted:#c8c0df; background:#29283a; font-family:monospace; }
+    text { fill:var(--text); }
+    .node-title { text-anchor:middle; font-size:17px; }
+    .node-subtitle { text-anchor:middle; font-size:11px; fill:var(--muted); }
+    .wire { fill:none; stroke:var(--line); stroke-width:1.5; }
+    .motion { visibility:hidden; }
+    .motion-ready .motion { visibility:visible; }
+    .motion-ready .overview { visibility:hidden; }
+    .phase-caption { text-anchor:middle; font-size:16px; fill:var(--accent); }
+    @media (prefers-reduced-motion:reduce) { .motion-ready .motion { visibility:hidden !important; } .motion-ready .overview { visibility:visible !important; } }
+  </style>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#827ca8"/></marker></defs>
+  <rect width="720" height="420" fill="#29283a"/>
+  <text x="24" y="29" style="fill:var(--muted);font-size:13px">learnhub / publish to quiz result</text>
+  <path d="M146 82H270" class="wire" marker-end="url(#arrow)"/>
+  <path d="M574 82H450" class="wire" marker-end="url(#arrow)"/>
+  <path d="M360 111V146" class="wire" marker-end="url(#arrow)"/>
+  <path d="M316 210L224 260M404 210L496 260" class="wire" marker-end="url(#arrow)"/>
+  <path d="M292 294H428" class="wire" marker-end="url(#arrow)"/>
+  <rect x="34" y="54" width="112" height="56" rx="7" fill="var(--node)" stroke="var(--line)"/>
+  <rect class="motion" x="34" y="54" width="112" height="56" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+  <text x="90" y="78" class="node-title">Teacher</text><text x="90" y="98" class="node-subtitle">publish / import</text>
+  <rect x="574" y="54" width="112" height="56" rx="7" fill="var(--node)" stroke="var(--line)"/>
+  <rect class="motion" x="574" y="54" width="112" height="56" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+  <text x="630" y="78" class="node-title">Student</text><text x="630" y="98" class="node-subtitle">attempt quiz</text>
+  <rect x="270" y="48" width="180" height="63" rx="7" fill="var(--node)" stroke="var(--line)"/>
+  <rect class="motion" x="270" y="48" width="180" height="63" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="1;0;1;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+  <text x="360" y="75" class="node-title">React UI</text><text x="360" y="96" class="node-subtitle">feed / publishing / quiz</text>
+  <rect x="265" y="146" width="190" height="64" rx="7" fill="var(--node)" stroke="var(--line)"/>
+  <rect class="motion" x="265" y="146" width="190" height="64" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+  <text x="360" y="174" class="node-title">Spring Boot API</text><text x="360" y="195" class="node-subtitle">session + role checks</text>
+  <rect x="142" y="260" width="150" height="68" rx="7" fill="var(--node)" stroke="var(--line)"/>
+  <rect class="motion" x="142" y="260" width="150" height="68" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+  <text x="217" y="290" class="node-title">Content</text><text x="217" y="311" class="node-subtitle">posts / files / feed</text>
+  <rect x="428" y="260" width="150" height="68" rx="7" fill="var(--node)" stroke="var(--line)"/>
+  <rect class="motion" x="428" y="260" width="150" height="68" rx="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0"><animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+  <text x="503" y="290" class="node-title">Quiz + H2</text><text x="503" y="311" class="node-subtitle">attempt / score / solution</text>
+  <circle class="motion" r="4.5" fill="var(--accent)" opacity="0"><animateMotion path="M146 82H270V146" keyPoints="0;0;1;1" keyTimes="0;0.03;0.2;1" calcMode="linear" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03;0.045;0.185;0.2;1" dur="12s" repeatCount="indefinite"/></circle>
+  <circle class="motion" r="4.5" fill="var(--accent)" opacity="0"><animateMotion path="M360 210L224 260" keyPoints="0;0;1;1" keyTimes="0;0.28;0.45;1" calcMode="linear" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28;0.295;0.435;0.45;1" dur="12s" repeatCount="indefinite"/></circle>
+  <circle class="motion" r="4.5" fill="var(--accent)" opacity="0"><animateMotion path="M574 82H450V111H360V146" keyPoints="0;0;1;1" keyTimes="0;0.53;0.7;1" calcMode="linear" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.53;0.545;0.685;0.7;1" dur="12s" repeatCount="indefinite"/></circle>
+  <circle class="motion" r="4.5" fill="var(--accent)" opacity="0"><animateMotion path="M360 210L496 260H578V210H455V111H574" keyPoints="0;0;1;1" keyTimes="0;0.78;0.95;1" calcMode="linear" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.78;0.795;0.935;0.95;1" dur="12s" repeatCount="indefinite"/></circle>
+  <path d="M24 362H696" stroke="#827ca8" opacity=".45"/>
+  <text class="overview" x="360" y="394" style="text-anchor:middle;fill:var(--muted);font-size:13px">Publish → authorize → attempt → score and solutions</text>
+  <text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">1 / A teacher publishes content or imports a quiz<animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
+  <text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">2 / Role checks protect publishing and ownership<animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
+  <text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">3 / A student opens a timed quiz from the feed<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
+  <text class="motion phase-caption" x="360" y="394" opacity="0" aria-hidden="true">4 / Answers are scored and solutions are returned<animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/></text>
+</svg>
