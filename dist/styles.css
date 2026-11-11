@@ -171,6 +171,8 @@ h1 > span { color: var(--accent); }
 .certifications li { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 0 0 15px; font-size: 13px; line-height: 1.6; }
 .certifications li + li { padding-top: 14px; border-top: 1px solid var(--line); }
 .certifications li:last-child { padding-bottom: 0; }
+.certifications a:hover { color: var(--accent); }
+.certifications a span { color: var(--accent); white-space: nowrap; }
 .certificate-detail { flex-shrink: 0; color: var(--subtle); font-family: var(--mono); font-size: 10px; }
 .recognition { display: grid; grid-template-columns: 1fr 1.2fr; gap: 85px; padding-block: 25px; border-top: 1px solid var(--line); }
 .recognition > .small-heading { margin-top: 4px; }
